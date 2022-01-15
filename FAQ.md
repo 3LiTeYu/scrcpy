@@ -219,6 +219,9 @@ scrcpy -m 1024
 scrcpy -m 800
 ```
 
+Since scrcpy v1.22, scrcpy automatically try with lower definitions before
+failing. This behavior can be disabled with `--no-downsize-on-error`.
+
 You could also try another [encoder](README.md#encoder).
 
 
